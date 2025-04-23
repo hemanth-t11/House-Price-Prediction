@@ -1,0 +1,14 @@
+requirements = """
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+"""
+
+requirements_path = "/mnt/data/requirements.txt"
+with open(requirements_path, "w") as f:
+    f.write(requirements.strip())
+
+requirements_path
